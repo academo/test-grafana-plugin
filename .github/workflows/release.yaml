@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: SandersAaronD/plugin-actions/build-plugin@sandersaarond/build-plugin-add-workdir
+      - uses: grafana/plugin-actions/build-plugin@academo/build-action-use-package-action
         with:
           # see https://grafana.com/developers/plugin-tools/publish-a-plugin/sign-a-plugin#generate-an-access-policy-token to generate it
           # save the value in your repository secrets
